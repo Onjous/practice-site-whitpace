@@ -87,15 +87,14 @@ a {
 
 
 body {
-  width: 1920px;
-  margin: 0 auto;
+ 
   font-family: 'DM Sans', sans-serif;
 }
 
 
 .container {
-  min-width: 1920px;
-  padding: 0 220px;
+ width: 1440px;
+ margin: 0 auto;
 }
 
 .text {
@@ -110,6 +109,10 @@ body {
 }
 
 .section {
+
+}
+
+.wrapper  {
   margin: 140px 0;
 }
 
@@ -121,8 +124,7 @@ body {
 
 .header-logo {
   align-self: center;
-width: 191px;
-height: 34px;
+
 }
 .header-right {
   display: flex;
@@ -136,15 +138,13 @@ height: 34px;
 .header-list {
   display: flex;
   gap: 51px;
-
+  align-items: center;
 }
 
 .header-list-item {
-  padding: 18.5px 0;
 font-size: 18px;
 color: #4F9CF9;
 font-weight: medium;
-vertical-align: middle;
 }
 
 
@@ -158,7 +158,7 @@ vertical-align: middle;
 .button {
     font-size: 23px;
     color: #043873;
-    padding: 18.5px 40px;
+    padding: 10px 40px;
     border-radius: 8px;
     border: 0 ;
     font-weight: medium;
@@ -169,7 +169,7 @@ vertical-align: middle;
   display: flex;
   gap: 24px;
 margin-left: 75.5px;
-vertical-align: middle;
+align-items: center;
 }
 
 .login-button {
@@ -191,18 +191,13 @@ background-color: #FFE492;
 
 /* HERO */
 
-.hero-section {
-
-}
-
 .hero {
 display: flex;
 }
 
 
 .hero-left {
-min-width: 656px;
-padding-right: 40px;
+
 }
 
 .hero-title {
@@ -216,6 +211,7 @@ color: #4F9CF9;
 .hero-text {
 color: #4F9CF9;
 margin-bottom: 60px;
+max-width: 655px;
 }
 
 .hero-right {
@@ -236,10 +232,11 @@ margin-bottom: 60px;
 
 .menegment-text {
 margin-bottom: 60px;
+min-width: 672px;
 }
 
 .menegment-left {
-min-width: 672px;
+
 margin-right: 60px;
 }
 
@@ -254,6 +251,7 @@ margin-right: 60px;
 
 .work-together {
 display: flex;
+margin-top: 100px;
 }
 
 .work-together-image {
